@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="./Icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo"><span>Shashank Panwar</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icons"></i>
+
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="Profile.jpg" alt="">
+
+            <div class="info-box">
+
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Shashank Panwar</h1>
+                    <span>A Passionate Data Analyst</span>
+                </div>
+
+                <div class="btn-group">
+                    <a href="Resume.pdf" style="color: black;">
+                        <div class="btn">Download CV</div>
+                    </a>
+                    <!--<div class="btn">Contact</div>-->
+                </div>
+
+                <div class="socials">
+                    <a href="https://github.com/shashucpp" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/shashankpanwar/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <br>
+        <br>
+        <br>
+
+        <h3>Languages</h3>
+        <div class="skills-row">
+            <div class="skill-item">
+                <img src="sql.jpg" alt="SQL Logo">
+                <p>SQL</p>
+            </div>
+            <div class="skill-item">
+                <img src="python.jpg" alt="Python Logo">
+                <p>Python</p>
+            </div>
+        </div>
+
+        <h3>Tools</h3>
+        <div class="skills-row">
+            <div class="skill-item">
+                <img src="Power BI.jpg" alt="Power BI Logo">
+                <p>Power BI</p>
+            </div>
+            <div class="skill-item">
+                <img src="excel.jpg" alt="Excel Logo">
+                <p>Excel</p>
+            </div>
+            <div class="skill-item">
+                <img src="icons8-jupyter-48.png" alt="Jupyter Logo">
+                <p>Jupyter</p>
+            </div>
+            <div class="skill-item">
+                <img src="github-icon-1-logo.jpg" alt="GitHub Logo">
+                <p>GitHub</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="My Stores.jpg" alt="">
+                <h3>My Stores</h3>
+                <p>
+                    Created interactive Dashboard to track and analyze online sales Data. 
+                    Used complex parameters to drill down in worksheet and customization using filters and slicers. 
+                    Created connections, join new tables, calculations to manipulate data and enable user driven parameters for visualizations. 
+                    Used Different Types Of Customized Visualization (Bar Chart,Pie Chart,etc.)
+                </p>
+                <div class="btn-group">
+                    <a href="Project 1.pdf" style="color: black;">
+                        <div class="btn">Live Demo</div>
+                    </a>
+                    <a href="https://github.com/shashucpp/My-Stores" style="color: black;">
+                        <div class="btn">Github Repo</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="Kumbh Mela.jpg" alt="">
+                <h3>Kumbh Mela</h3>
+                <p>
+                    The "Kumbh Mela Data Analysis" project is a comprehensive Power BI dashboard designed to analyze and
+                    visualize key insights from one of the world's largest religious gatherings — the Kumbh Mela.
+                    Using Power BI, I transformed raw event data into interactive visualizations that provide actionable
+                    insights for event organizers, local authorities, and researchers.
+                </p>
+                <p>
+                    Key features of the project include:
+                    Visitor Analysis: Track and visualize the number of visitors over different dates and locations.
+                    Crowd Management: Heatmaps and trend charts to monitor crowd density across various zones, helping
+                    with effective resource allocation.
+                    Facilities & Services Feedback: Analysis of user feedback on sanitation, accommodation, and
+                    transport facilities.
+                    Economic Impact: Dashboard showing estimated revenue generation and local business impact during the
+                    even
+                </p>
+                <div class="btn-group">
+                    <a href="Kumbh Mela.pdf" style="color: black;">
+                        <div class="btn">Live Demo</div>
+                    </a>
+                    <a href="https://github.com/shashucpp/Kumbh-Mela" style="color: black;">
+                        <div class="btn">Github Repo</div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+
+        <div class="input-box">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="input">
+                <input type="text" placeholder="example@email.com">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="btn">Submit</div>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <p>&copy; 2025 Shashank Panwar. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
